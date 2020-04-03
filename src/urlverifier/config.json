@@ -1,0 +1,13 @@
+{
+    "logging": true,
+    "max_allowed_tasks_per_update": 1,   
+    "max_image_size": 16777215, 
+    "chrome_driver": "./chromedriver/80/linux/chromedriver",
+    "database": {
+        "host": "127.0.0.1",
+        "port": "3306",
+        "database": "dtd",
+        "user": "dtd_slave",
+        "password": "dtd_slave"
+    }
+}

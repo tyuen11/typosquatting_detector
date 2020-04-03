@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Distrubuted Typosquatting Detector</title>
+    <link rel="stylesheet" href="/css/new_index.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/c99e9206a7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <p class="custom_shadow">Distrubuted Typosquatting Detector</p>
+    <div class="s130">
+        <form>
+            <div class="inner-form">
+                <div class="input-field first-wrap">
+                    <div class="svg-wrapper">
+                        <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                        </svg>
+                    </div>
+                    <input id="search" type="text" placeholder="Enter an url to crawl" />
+                </div>
+                <div class="input-field second-wrap">
+                    <button id="submit_btn" class="btn-search" type="button">Submit</button>
+                </div>
+            </div>
+            <span class="info">ex. Facebook.com, paypal.com, chase.com</span>
+
+            <div id="spinner" class="spinner container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <i class="fa-9x fas fa-spinner fa-pulse"></i>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 spinner_text_aligment">
+                        <i id="spinner_text" class="spinner_text">Loading.....</i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid list_theme" style="margin-top:1em;">
+                <div class="row">
+                    <div class="col-12">
+                        <ul id="url_list" class="list-group">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,2 @@
+docker start dtd-typogenerator
+
