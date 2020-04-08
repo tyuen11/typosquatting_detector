@@ -30,3 +30,10 @@ MySQl Community Edition 8.0.18
 Requests(pip install requests)
 Selenium(pip install selenium)
 ```
+
+## Original Authors
+
+* **[Austin Joseph](https://github.com/austinobejo)**
+* **[Gao XiangShuai](https://github.com/GAO23)**
+* **[Timothy Yuen](https://github.com/tyuen11)**
+* **[Yehonathan Litman](https://github.com/yehonathanlitman)**
